@@ -32,7 +32,7 @@ To prepare the datasets use commands such as example, or please refer [`python d
 python dataset_tool.py --source=/source_folder/ --dest=/destination_folder/ --width=256 --height=256
 ```
 ## Running Experiments
-Please refer [`diffusion-stylegan2-ada-pytorch/config/`](./diffusion-stylegan2-ada-pytorch/config/) for configuration details of 8 experiments conducted in this study.
+Please refer [`diffusion-stylegan2-ada-pytorch/config/`](./config/) for configuration details of 8 experiments conducted in this study.
 
 ## Checkpoint
 
