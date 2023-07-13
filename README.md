@@ -26,6 +26,11 @@ ducing more detailed batik motifs.
 ## Dataset: 
 - 20,000 batik images from 20 types of batik at: [Batik datasets](https://drive.google.com/file/d/1IPae6gKJVBW2pPTGrFHS70pp1n9-XIjQ/view?usp=sharing)
 - Chrystian, C.: Itb-mbatik dataset (2023)
+## Steps for preparing Datasets
+To prepare the datasets use commands such as example, or please refer [`python dataset_tool.py --help`](./docs/dataset-tool-help.txt) for more details on dataset preparation.
+```.bash
+python dataset_tool.py --source=/source_folder/ --dest=/destination_folder/ --width=256 --height=256
+```
 ## Checkpoint
 
 |            Model            |   Dataset    | Resolution |  FID  |                                                        Checkpoint                                                         |
