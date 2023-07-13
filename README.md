@@ -40,4 +40,4 @@ python dataset_tool.py --source=/source_folder/ --dest=/destination_folder/ --wi
 |     Diffusion-Wassertein-StyleGAN2     |   20.000 Batik Images    |   256x256    | 36.756 |      [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)      |
 |     Diffusion-Wassertein-StyleGAN2     | Combined Datasets with ITBmBatik |  256x256   | 43.4331  |  [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)   |
 ## Credits
-Please visit the original Diffusion-GAN on https://github.com/Zhendong-Wang/Diffusion-GAN
+Please visit the original Diffusion-GAN and StyleGAN2-Ada-Pytorch on https://github.com/Zhendong-Wang/Diffusion-GAN and https://github.com/NVlabs/stylegan2-ada-pytorch
