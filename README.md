@@ -23,7 +23,7 @@ research contributes to the integration of Diffusion-GAN technology with tra-
 ditional arts and culture, especially in the synthesis of batik motifs. However,
 there is still room for further development in increasing skill and accuracy in pro-
 ducing more detailed batik motifs. 
-## Dataset: 
+## Datasets 
 - 20,000 batik images from 20 types of batik at: [Batik datasets](https://drive.google.com/file/d/1IPae6gKJVBW2pPTGrFHS70pp1n9-XIjQ/view?usp=sharing)
 - Chrystian, C.: Itb-mbatik dataset (2023)
 ## Steps for preparing Datasets
@@ -31,6 +31,9 @@ To prepare the datasets use commands such as example, or please refer [`python d
 ```.bash
 python dataset_tool.py --source=/source_folder/ --dest=/destination_folder/ --width=256 --height=256
 ```
+## Running Experiments
+Please refer [`diffusion-stylegan2-ada-pytorch/config/`](./diffusion-stylegan2-ada-pytorch/config/) for configuration details of 8 experiments conducted in this study.
+
 ## Checkpoint
 
 |            Model            |   Dataset    | Resolution |  FID  |                                                        Checkpoint                                                         |
