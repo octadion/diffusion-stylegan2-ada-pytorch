@@ -35,6 +35,10 @@ python dataset_tool.py --source=/source_folder/ --dest=/destination_folder/ --wi
 
 |            Model            |   Dataset    | Resolution |  FID  |                                                        Checkpoint                                                         |
 |:---------------------------:|:------------:|:----------:|:-----:|:-------------------------------------------------------------------------------------------------------------------------:|
+|     StyleGAN2     |   20.000 Batik Images   |   256x256    | 46.799  |     [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)     |
+|     StyleGAN2     |   Combined Datasets with ITBmBatik   |   256x256    | 57.4302  |     [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)     |
+|     Wassertein-StyleGAN2     |   20.000 Batik Images   |   256x256    | 48.781  |     [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)     |
+|     Wassertein-StyleGAN2     |   Combined Datasets with ITBmBatik   |   256x256    | 42.9192  |     [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)     |
 |     Diffusion-StyleGAN2     |   20.000 Batik Images   |   256x256    | 29.045  |     [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)     |
 |     Diffusion-StyleGAN2     |    Combined Datasets with ITBmBatik    |    256x256    | 33.0104  |    [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)     |
 |     Diffusion-Wassertein-StyleGAN2     |   20.000 Batik Images    |   256x256    | 36.756 |      [download](https://drive.google.com/file/d/1KlrVByH6vIsS7h0J_-5fOf6aYmcLiXfz/view?usp=sharing)      |
