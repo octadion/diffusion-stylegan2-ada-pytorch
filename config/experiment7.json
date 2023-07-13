@@ -1,0 +1,91 @@
+{
+    "num_gpus": 1,
+    "image_snapshot_ticks": 10,
+    "network_snapshot_ticks": 10,
+    "metrics": [
+      "fid50k_full"
+    ],
+    "random_seed": 0,
+    "training_set_kwargs": {
+      "class_name": "training.dataset.ImageFolderDataset",
+      "path": "/home/octa/dataset/batik-256-clean2-temp/",
+      "use_labels": false,
+      "max_size": 20200,
+      "xflip": true,
+      "resolution": 256
+    },
+    "data_loader_kwargs": {
+      "pin_memory": true,
+      "num_workers": 3,
+      "prefetch_factor": 2
+    },
+    "G_kwargs": {
+      "class_name": "training.networks.Generator",
+      "z_dim": 512,
+      "w_dim": 512,
+      "mapping_kwargs": {
+        "num_layers": 8
+      },
+      "synthesis_kwargs": {
+        "channel_base": 16384,
+        "channel_max": 512,
+        "num_fp16_res": 4,
+        "conv_clamp": 256
+      }
+    },
+    "D_kwargs": {
+      "class_name": "training.networks.Discriminator",
+      "block_kwargs": {},
+      "mapping_kwargs": {},
+      "epilogue_kwargs": {
+        "mbstd_group_size": 8
+      },
+      "channel_base": 16384,
+      "channel_max": 512,
+      "num_fp16_res": 4,
+      "conv_clamp": 256
+    },
+    "G_opt_kwargs": {
+      "class_name": "torch.optim.Adam",
+      "lr": 0.0025,
+      "betas": [
+        0,
+        0.99
+      ],
+      "eps": 1e-08
+    },
+    "D_opt_kwargs": {
+      "class_name": "torch.optim.Adam",
+      "lr": 0.0025,
+      "betas": [
+        0,
+        0.99
+      ],
+      "eps": 1e-08
+    },
+    "loss_kwargs": {
+      "class_name": "training.loss.StyleGAN2Loss",
+      "r1_gamma": 1
+    },
+    "total_kimg": 75000,
+    "batch_size": 64,
+    "batch_gpu": 16,
+    "ema_kimg": 20,
+    "ema_rampup": null,
+    "ada_target": 0.6,
+    "ada_kimg": 100,
+    "diffusion_kwargs": {
+      "class_name": "training.diffusion.Diffusion",
+      "beta_schedule": "linear",
+      "beta_start": 0.0001,
+      "beta_end": 0.02,
+      "t_min": 10,
+      "t_max": 1000,
+      "noise_std": 0.05,
+      "aug": "no",
+      "ada_maxp": 0.25,
+      "ts_dist": "priority"
+    },
+    "resume_pkl": "/home/octa/diffusion-gan/Diffusion-GAN/pretrained/diffusion-stylegan2-lsun-bedroom.pkl",
+    "run_dir": "/home/octa/diffusion-gan/Diffusion-GAN/results-wnew/00000--mirror-paper256-target0.6-ada_kimg100-ts_dist-priority-image_augno-noise_sd0.05-resumecustom"
+  }
