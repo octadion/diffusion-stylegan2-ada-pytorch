@@ -50,7 +50,7 @@ Please refer [`diffusion-stylegan2-ada-pytorch/config/`](./config/) for configur
 If you use the batik dataset, or find this helpful, please cite this paper:
 ```go
 @misc{octadion2023diffbatik,
-title={Synthesis of Batik Motifs using a Diffusion - Generative Adversarial Network},
+title={Synthesis of Batik Motifs using a Diffusion -- Generative Adversarial Network},
 author={One Octadion and Novanto Yudistira and Diva Kurnianingtyas},  
 year={2023},  
 eprint={2307.12122},  
