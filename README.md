@@ -46,5 +46,17 @@ Please refer [`diffusion-stylegan2-ada-pytorch/config/`](./config/) for configur
 |     Diffusion-StyleGAN2     |    Combined Datasets with ITBmBatik    |    256x256    | 33.0104  |    [download](https://drive.google.com/file/d/1gUOOsSRNBNpKAlmcxHiPnFgBG_A6IzHi/view?usp=sharing)     |
 |     Diffusion-Wassertein-StyleGAN2     |   20.000 Batik Images    |   256x256    | 36.756 |      [download](https://drive.google.com/file/d/1nas6iLVHkB1q2mmoxW4sabWLMiwxUGG4/view?usp=sharing)      |
 |     Diffusion-Wassertein-StyleGAN2     | Combined Datasets with ITBmBatik |  256x256   | 43.4331  |  [download](https://drive.google.com/file/d/1pEChBU3nTdrEDFhC1afi2Mm4B0AXValx/view?usp=sharing)   |
+## Cite
+If you use the batik dataset, or find this helpful, please cite this paper:
+```go
+@misc{octadion2023diffbatik,
+title={Synthesis of Batik Motifs using a Diffusion - Generative Adversarial Network},
+author={One Octadion and Novanto Yudistira and Diva Kurnianingtyas},  
+year={2023},  
+eprint={2307.12122},  
+archivePrefix={arXiv},  
+primaryClass={cs.CV} 
+}  
+```
 ## Credits
 Please visit the original Diffusion-GAN and StyleGAN2-Ada-Pytorch on https://github.com/Zhendong-Wang/Diffusion-GAN and https://github.com/NVlabs/stylegan2-ada-pytorch
